@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Typing Speed Tester</title>
+    <script src="timer.js"></script>
+    <style>
+        #topic
+        {
+            font-size: 45px;
+            font-family: "American Typewriter";
+        }
+        #timer
+        {
+            font-size: 40px;
+            font-weight: bold;
+        }
+        #textarea, #writtentext, #tobewrittentext
+        {
+            font-size: 20px;
+        }
+        #typingSpeed
+        {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="topic">Typing Speed Tester</div>
+    <div id="timer" style="float:right">00</div>
+    <br><br><br>
+    <button type="button" id="btn" style="float:right">Start Test</button>
+    <br><br><br><br><br>
+    <input type="text" id="writtentext" size="50" readonly>
+    <input type="text" id="tobewrittentext" size="50" readonly
+           value="The tiger is the largest cat species, most recognizable for their pattern of dark vertical stripes on reddish-orange fur with a lighter underside. The species is classified in the genus Panthera with the lion, leopard, jaguar, and snow leopard.">
+    <br><br><br><br><br>
+    <textarea rows="12" cols="100" id="textarea" readonly>
+    </textarea>
+    <br><br><br>
+    <div id="typingSpeed"></div>
+</body>
+</html>
